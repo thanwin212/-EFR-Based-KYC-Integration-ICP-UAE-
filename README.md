@@ -2,15 +2,21 @@
 
 📌 **Project Overview**
 
-This project involved the end-to-end integration of Emirates Face Recognition (EFR) into a fintech mobile application to enable fully digital customer onboarding (KYC).
+This project involved the end-to-end integration of Emirates Face Recognition (EFR) into a pay10 mobile application to enable fully digital customer onboarding (KYC).
 
 The solution leveraged:
 
 OCR technology to extract data from Emirates ID
 Facial recognition & liveness detection
 Verification against ICP UAE database
+Forgery and tempered check
 
 The goal was to replace manual onboarding with a secure, automated, and regulatory-compliant digital KYC journey.
+
+Project Length:
+
+Start Date: 6 Jan 2025
+End Date: 1 Aug 2025
 
 
 🎯 **Objectives**
@@ -25,6 +31,7 @@ Improve user experience through seamless identity verification
 🎯 Achieved high accuracy in OCR and biometric validation
 📈 Improved onboarding success rate and user experience
 🛡️ Ensured full compliance with UAE identity verification standards
+
 🧩 My Role
 
 **Project Manager & Business Analyst**
@@ -40,31 +47,23 @@ Managed UAT, testing cycles, and production release
 1. OCR Accuracy Issues
 
 Challenge: Emirates ID scans failed under poor lighting or damaged cards
-Solution:
-
-Improved image capture guidelines in UI
+Solution:Improved image capture guidelines in UI
 Worked with vendor on OCR tuning and validation rules
+
 2. Face Recognition Failures
 
 Challenge: Users failing liveness detection due to environment conditions
-Solution:
+Solution:Introduced retry mechanisms
 
-Introduced retry mechanisms
-Added real-time user guidance (lighting, positioning)
-3. Third-Party Integration Dependency
-
+3. vendor Support
 Challenge: Delays and inconsistencies from EFR API provider
-Solution:
+Solution: Established sandbox testing cycles and get frequent meetings to get immediate support for issues
 
-Established sandbox testing cycles
-Implemented fallback error handling and logging
+
 4. Regulatory & Compliance Constraints
-
 Challenge: Strict UAE KYC and data privacy requirements
-Solution:
-
-Worked closely with compliance teams
-Ensured secure data handling and audit readiness
+Solution: Worked closely with compliance teams
+Ensured secure data handling and audit readiness, such as to build ICP certifications capture in the back office portal
 
 🏗️ **High-Level Flow**
 User Registration
